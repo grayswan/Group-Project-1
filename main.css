@@ -1,0 +1,100 @@
+body {
+  background-color: #e3e3e3; }
+
+.overlay {
+  	visibility: visible;
+  	position: fixed;
+  	width: 100%;
+  	height: 100%;
+  	top: 0;
+  	left: 0;
+  	background: rgba(117,145,255,0.8);
+  	transition: opacity 0.5s;
+  }
+
+.FormPosition {
+  		text-align: center;
+  		height: 100px;
+  		margin-top: 300px;
+  }
+
+#namefield {
+  height: 50%;
+  width: 30%;
+  margin: 15px;
+  font-size: 18px;
+  box-shadow: 4px 4px 0px #000, 0px 8px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Indie Flower", sans-serif;
+}
+
+.addButton {
+  height: 53%;
+  width: 5%;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 4px 4px 0px #000, 0px 8px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Indie Flower", sans-serif;
+}
+
+#NameBox {
+  height: 50px;
+  width:400px;
+  font-size: 2em;
+  font-family: "Indie Flower", sans-serif;
+  color:black;
+  background-color: #e3e3e3;
+  margin-bottom: 20px;
+}
+
+input {
+  line-height: 2em;
+}
+
+h1 {
+  padding: 20px 0 0 0;
+  font-family: "Indie Flower", sans-serif; }
+
+h2 {
+  padding: 25px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 33px; }
+
+p {
+  font-family: "Indie Flower", sans-serif;
+  margin: 0 auto;
+  padding: 0 0 10px 0; }
+
+.container {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center; }
+
+.board {
+  width: 400px;
+  height: 360px;
+  background-color: #88a6ff;
+  border-radius: 25px;
+  padding-top: 30px;
+  box-shadow: 4px 4px 0px #000, 0px 8px 15px rgba(0, 0, 0, 0.2); }
+
+.row {
+  display: flex;
+  padding-left: 43px; }
+
+.square {
+  font-family: "Indie Flower", sans-serif;
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  padding: 3px;
+  margin: 10px 5px 0 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 25px;
+  line-height: 80px;
+  font-size: 40px; }
+
+.square:hover {
+  background-color: #ffe188;
+  cursor: pointer; }
